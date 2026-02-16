@@ -82,3 +82,11 @@ jobs:
 
           echo "Uploading $ROM_FILE to PixelDrain..."
           pd --api-key "$PIXELDRAIN_API_KEY" upload "$ROM_FILE" | sed 's|api/file|u|g'
+
+      - name: Save ROM as GitHub Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AstroROM-S21FE-SouthAfrica
+          path: out/*.zip
+          retention-days: 5
