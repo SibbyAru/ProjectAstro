@@ -26,12 +26,12 @@ PLATFORM="ex_2100"
 
 # Stock firmware details for download
 STOCK_MODEL="SM-G990E"
-STOCK_CSC="THL"
+STOCK_CSC="XFA"
 STOCK_IMEI="355798871234563"
 
 # Source firmware details for download
 MODEL="SM-G990E"
-CSC="THL"
+CSC="XFA"
 IMEI="355798871234563"
 
 # Extra firmware (Optional) details for download
